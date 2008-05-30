@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/signal
+lib/signal.rb
+test/test_signal.rb

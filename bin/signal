@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+SIGNAL_ROOT = File.expand_path(File.dirname(__FILE__) + '/../')
+
+$: << File.join(SIGNAL_ROOT, 'lib')
+
+require 'signal'
+
+bot = Signal::Bot.new 'signal', 'irc.freenode.net', 'JRUBY', 
+  'http://jira.codehaus.org/', :channel => '#jruby',
+  :realname => 'JRuby JIRA bot by _eric'
+
+bot.connect
+
