@@ -1,33 +1,28 @@
 signal
-    by FIX (your name)
-    FIX (url)
+    by Eric Lindvall <eric@5stops.com>
+    http://github.com/eric/signal/tree/master
 
 == DESCRIPTION:
   
-FIX (describe your package)
+A simple IRC bot for the #jruby channel.
 
-
-== FEATURES/PROBLEMS:
-  
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Ruby-IRC
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* Check out code
+* Save nickserv password in "lib/signal/plugins/.nickserv-password"
+* Run bin/signal
+
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2007 FIX
+Copyright (c) 2008 Eric Lindvall
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
